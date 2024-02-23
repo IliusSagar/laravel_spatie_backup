@@ -45,6 +45,10 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
+            'dump' => [
+                'dump_binary_path' => 'D:\xampp8.1.12\mysql\bin' // only the path, so without `mysqldump` or `pg_dump`
+    
+             ],
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
