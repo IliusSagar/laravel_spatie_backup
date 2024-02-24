@@ -5,3 +5,8 @@
 05) config/database.php
 06) php artisan backup:run
 07) php artisan storage:link
+
+Mail Setup:
+08) .env
+
+09) php artisan backup:run --only-db
